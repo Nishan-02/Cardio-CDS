@@ -1,0 +1,2942 @@
+{
+  "Patient_1": {
+    "metadata": {
+      "patient_number": 1,
+      "record_id": "Patient_1"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_2": {
+    "metadata": {
+      "patient_number": 2,
+      "record_id": "Patient_2"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_3": {
+    "metadata": {
+      "patient_number": 3,
+      "record_id": "Patient_3"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_4": {
+    "metadata": {
+      "patient_number": 4,
+      "record_id": "Patient_4"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_5": {
+    "metadata": {
+      "patient_number": 5,
+      "record_id": "Patient_5"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_6": {
+    "metadata": {
+      "patient_number": 6,
+      "record_id": "Patient_6"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_7": {
+    "metadata": {
+      "patient_number": 7,
+      "record_id": "Patient_7"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_8": {
+    "metadata": {
+      "patient_number": 8,
+      "record_id": "Patient_8"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_9": {
+    "metadata": {
+      "patient_number": 9,
+      "record_id": "Patient_9"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_10": {
+    "metadata": {
+      "patient_number": 10,
+      "record_id": "Patient_10"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_11": {
+    "metadata": {
+      "patient_number": 11,
+      "record_id": "Patient_11"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_12": {
+    "metadata": {
+      "patient_number": 12,
+      "record_id": "Patient_12"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_13": {
+    "metadata": {
+      "patient_number": 13,
+      "record_id": "Patient_13"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_14": {
+    "metadata": {
+      "patient_number": 14,
+      "record_id": "Patient_14"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_15": {
+    "metadata": {
+      "patient_number": 15,
+      "record_id": "Patient_15"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_16": {
+    "metadata": {
+      "patient_number": 16,
+      "record_id": "Patient_16"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_17": {
+    "metadata": {
+      "patient_number": 17,
+      "record_id": "Patient_17"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_18": {
+    "metadata": {
+      "patient_number": 18,
+      "record_id": "Patient_18"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_19": {
+    "metadata": {
+      "patient_number": 19,
+      "record_id": "Patient_19"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_20": {
+    "metadata": {
+      "patient_number": 20,
+      "record_id": "Patient_20"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_21": {
+    "metadata": {
+      "patient_number": 21,
+      "record_id": "Patient_21"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_22": {
+    "metadata": {
+      "patient_number": 22,
+      "record_id": "Patient_22"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_23": {
+    "metadata": {
+      "patient_number": 23,
+      "record_id": "Patient_23"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_24": {
+    "metadata": {
+      "patient_number": 24,
+      "record_id": "Patient_24"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_25": {
+    "metadata": {
+      "patient_number": 25,
+      "record_id": "Patient_25"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_26": {
+    "metadata": {
+      "patient_number": 26,
+      "record_id": "Patient_26"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_27": {
+    "metadata": {
+      "patient_number": 27,
+      "record_id": "Patient_27"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_28": {
+    "metadata": {
+      "patient_number": 28,
+      "record_id": "Patient_28"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_29": {
+    "metadata": {
+      "patient_number": 29,
+      "record_id": "Patient_29"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_30": {
+    "metadata": {
+      "patient_number": 30,
+      "record_id": "Patient_30"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_31": {
+    "metadata": {
+      "patient_number": 31,
+      "record_id": "Patient_31"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_32": {
+    "metadata": {
+      "patient_number": 32,
+      "record_id": "Patient_32"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_33": {
+    "metadata": {
+      "patient_number": 33,
+      "record_id": "Patient_33"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_34": {
+    "metadata": {
+      "patient_number": 34,
+      "record_id": "Patient_34"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_35": {
+    "metadata": {
+      "patient_number": 35,
+      "record_id": "Patient_35"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_36": {
+    "metadata": {
+      "patient_number": 36,
+      "record_id": "Patient_36"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_37": {
+    "metadata": {
+      "patient_number": 37,
+      "record_id": "Patient_37"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_38": {
+    "metadata": {
+      "patient_number": 38,
+      "record_id": "Patient_38"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_39": {
+    "metadata": {
+      "patient_number": 39,
+      "record_id": "Patient_39"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_40": {
+    "metadata": {
+      "patient_number": 40,
+      "record_id": "Patient_40"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_41": {
+    "metadata": {
+      "patient_number": 41,
+      "record_id": "Patient_41"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Undetermined",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_42": {
+    "metadata": {
+      "patient_number": 42,
+      "record_id": "Patient_42"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_43": {
+    "metadata": {
+      "patient_number": 43,
+      "record_id": "Patient_43"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_44": {
+    "metadata": {
+      "patient_number": 44,
+      "record_id": "Patient_44"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_45": {
+    "metadata": {
+      "patient_number": 45,
+      "record_id": "Patient_45"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_46": {
+    "metadata": {
+      "patient_number": 46,
+      "record_id": "Patient_46"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_47": {
+    "metadata": {
+      "patient_number": 47,
+      "record_id": "Patient_47"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_48": {
+    "metadata": {
+      "patient_number": 48,
+      "record_id": "Patient_48"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_49": {
+    "metadata": {
+      "patient_number": 49,
+      "record_id": "Patient_49"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_50": {
+    "metadata": {
+      "patient_number": 50,
+      "record_id": "Patient_50"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_51": {
+    "metadata": {
+      "patient_number": 51,
+      "record_id": "Patient_51"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_52": {
+    "metadata": {
+      "patient_number": 52,
+      "record_id": "Patient_52"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_53": {
+    "metadata": {
+      "patient_number": 53,
+      "record_id": "Patient_53"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_54": {
+    "metadata": {
+      "patient_number": 54,
+      "record_id": "Patient_54"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_55": {
+    "metadata": {
+      "patient_number": 55,
+      "record_id": "Patient_55"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_56": {
+    "metadata": {
+      "patient_number": 56,
+      "record_id": "Patient_56"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_57": {
+    "metadata": {
+      "patient_number": 57,
+      "record_id": "Patient_57"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_58": {
+    "metadata": {
+      "patient_number": 58,
+      "record_id": "Patient_58"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_59": {
+    "metadata": {
+      "patient_number": 59,
+      "record_id": "Patient_59"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_60": {
+    "metadata": {
+      "patient_number": 60,
+      "record_id": "Patient_60"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_61": {
+    "metadata": {
+      "patient_number": 61,
+      "record_id": "Patient_61"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_62": {
+    "metadata": {
+      "patient_number": 62,
+      "record_id": "Patient_62"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_63": {
+    "metadata": {
+      "patient_number": 63,
+      "record_id": "Patient_63"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_64": {
+    "metadata": {
+      "patient_number": 64,
+      "record_id": "Patient_64"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_65": {
+    "metadata": {
+      "patient_number": 65,
+      "record_id": "Patient_65"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "Unstable Angina (UA)",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_66": {
+    "metadata": {
+      "patient_number": 66,
+      "record_id": "Patient_66"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_67": {
+    "metadata": {
+      "patient_number": 67,
+      "record_id": "Patient_67"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_68": {
+    "metadata": {
+      "patient_number": 68,
+      "record_id": "Patient_68"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "NSTEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "Low Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_69": {
+    "metadata": {
+      "patient_number": 69,
+      "record_id": "Patient_69"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  },
+  "Patient_70": {
+    "metadata": {
+      "patient_number": 70,
+      "record_id": "Patient_70"
+    },
+    "past_medical_history_and_presentation": {
+      "age_group": "Under 75 Years",
+      "chest_pain_presentation": "Typical Angina",
+      "systolic_blood_pressure_mmhg": "Not Recorded",
+      "oxygen_saturation_pct": 95,
+      "history_of_diabetes": "No",
+      "history_of_stroke_tia": "No",
+      "chronic_kidney_disease": "No"
+    },
+    "diagnostic_findings": {
+      "primary_diagnosis": "STEMI",
+      "cardiac_troponin_biomarker": "Negative / Normal"
+    },
+    "current_hospital_prescriptions": {
+      "assigned_reperfusion_strategy": "Conservative Medical Management",
+      "p2y12_inhibitor_active": "None",
+      "high_bleeding_risk_status": "Standard/Low Risk Margins",
+      "statin_therapy_intensity": "None",
+      "proton_pump_inhibitor_prescribed": "No",
+      "concurrent_oral_anticoagulation": "No"
+    },
+    "post_discharge_follow_up": {
+      "tracking_ldl_cholesterol_mg_dl": "Awaiting 4-8 Week Window"
+    },
+    "clinical_decision_support_audit": {
+      "calculated_risk_tier": "High Risk",
+      "identified_risk_drivers": [
+        "None Standardized"
+      ],
+      "regimen_clinical_status": "Suboptimized Therapy",
+      "identified_clinical_deviations": [
+        "Patient is missing a high-intensity statin foundation for secondary disease prevention."
+      ],
+      "immediate_medication_stop_directive": "No immediate changes required.",
+      "required_pharmacist_interventions": "Initiate Atorvastatin 40-80mg or Rosuvastatin 20-40mg daily."
+    }
+  }
+}

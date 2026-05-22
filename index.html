@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ischemic Heart Disease Clinical Decision Support System - Pharmacy Audit & Treatment Optimization Dashboard.">
+  <title>CARDIO-CDS | Ischemic Heart Disease Decision Support System</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- Loading Screen Overlay -->
+  <div id="appLoader" class="app-loader-overlay">
+    <div class="loader-spinner" role="status" aria-label="Loading Patient Records"></div>
+  </div>
+
+  <!-- Notification Toast Area -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <div class="dashboard-layout">
+    
+    <!-- HEADER SECTION -->
+    <header class="dashboard-header" role="banner">
+      <div class="branding">
+        <h1>CARDIO-<span class="accent">CDS</span></h1>
+        <p>Ischemic Heart Disease (IHD) Clinical Decision Support System &mdash; Secondary Prevention Audit</p>
+      </div>
+      <div class="header-right">
+        <div class="status-connection" aria-label="Database Status">
+          <div class="pulse-indicator"></div>
+          <span>LIVE &mdash; patients_master_db.json</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 1. GLOBAL METRICS REGION -->
+    <section class="metrics-row" aria-label="Global Clinical Analytics Summary">
+      
+      <!-- Metric: Compliance Rate -->
+      <div class="metric-card compliance">
+        <span class="metric-label">Global Compliance Rate</span>
+        <div class="metric-main-value"><span id="metricCompliancePercent">0.0</span>%</div>
+        <span class="metric-desc">Percentage of patients on optimized medical therapy</span>
+      </div>
+
+      <!-- Metric: Safety Violations -->
+      <div id="violationsMetricCard" class="metric-card violations">
+        <span class="metric-label">Critical Safety Violations</span>
+        <div class="metric-main-value" id="metricViolationsCount">0</div>
+        <span class="metric-desc">Immediate pharmacist interventions required</span>
+      </div>
+
+      <!-- Metric: High-Intensity Statins Progress -->
+      <div class="metric-card statins">
+        <span class="metric-label">High-Intensity Statin Foundation</span>
+        <div class="progress-container">
+          <div id="statinProgressBar" class="progress-bar-fill"></div>
+        </div>
+        <span class="metric-desc" id="statinProgressText">0% (0/70 Patients)</span>
+      </div>
+
+      <!-- Metric: Cohort Clinical Rate Distribution Bar -->
+      <div class="metric-card cohort">
+        <span class="metric-label">Cohort Clinical Distribution</span>
+        <div class="cohort-bar-container">
+          <div id="cohortRatesBar" class="cohort-bar">
+            <div id="cohortSegOptimized" class="cohort-bar-segment optimized" style="width: 0%;" title="Optimized"></div>
+            <div id="cohortSegSuboptimized" class="cohort-bar-segment suboptimized" style="width: 0%;" title="Suboptimized"></div>
+            <div id="cohortSegViolations" class="cohort-bar-segment violations" style="width: 0%;" title="Critical Safety Violations"></div>
+          </div>
+        </div>
+        <div id="cohortRatesLegend" class="cohort-legend">
+          <span class="legend-item"><span class="legend-dot optimized-dot"></span>Optimized: <span id="legendOptPct">0%</span></span>
+          <span class="legend-item"><span class="legend-dot suboptimized-dot"></span>Subopt: <span id="legendSubPct">0%</span></span>
+          <span class="legend-item"><span class="legend-dot violations-dot"></span>Violations: <span id="legendVioPct">0%</span></span>
+        </div>
+      </div>
+
+      <!-- Quick Control Actions -->
+      <div class="metric-card controls-card">
+        <button id="btnSimulateQueue" class="btn btn-primary" title="Randomize patient parameters to test rules engine">
+          <span>⚡</span> Simulate Clinical Queue
+        </button>
+        <button id="btnResetDatabase" class="btn btn-secondary btn-danger" title="Restore database to unmodified baseline JSON">
+          <span>🔄</span> Reset Database
+        </button>
+      </div>
+    </section>
+
+    <!-- 2. PATIENT LOOKUP & SEARCH SYSTEM -->
+    <section class="lookup-bar" aria-label="Patient Selector">
+      <div class="mode-switcher" role="group" aria-label="Operation Mode">
+        <button id="btnModeDatabase" class="mode-btn active" title="Audit existing patient registry">
+          📁 Registry Audit
+        </button>
+        <button id="btnModePredictor" class="mode-btn" title="Simulate a new patient clinical scenario">
+          🧪 New Patient Predictor
+        </button>
+      </div>
+      
+      <span id="searchPatientLabel" class="lookup-label">Search Patient:</span>
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="patientSearchInput" 
+            class="patient-search-input" 
+            placeholder="Type patient number or primary diagnosis (e.g., Patient_10, STEMI)..."
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="searchDropdownList"
+            aria-haspopup="listbox"
+          >
+        </div>
+        
+        <!-- Search Autocomplete Dropdown -->
+        <div id="searchDropdownList" class="search-dropdown" role="listbox" aria-label="Patient lookup results">
+          <!-- Populated dynamically via app.js -->
+        </div>
+        <div id="searchNoResults" class="search-no-results">No patient record matches search query.</div>
+      </div>
+
+      <!-- Arrow scan navigation buttons -->
+      <div class="navigation-buttons">
+        <button id="prevPatientBtn" class="nav-arrow-btn" title="Previous patient record" aria-label="Previous Patient">◀</button>
+        <button id="nextPatientBtn" class="nav-arrow-btn" title="Next patient record" aria-label="Next Patient">▶</button>
+      </div>
+    </section>
+
+    <!-- 3. DYNAMIC CLINICAL DETAIL CARDS -->
+    <main class="details-row" role="main">
+      
+      <!-- COLUMN 1: Baseline History & Presenting Metrics -->
+      <section class="clinical-column-card" aria-labelledby="col1-header">
+        <div class="column-header">
+          <span class="column-title" id="col1-header">🩺 Baseline &amp; Presentation</span>
+          <span id="displayPatientId" class="patient-focus-badge">Patient_1</span>
+        </div>
+
+        <!-- Demographics Subcard -->
+        <div class="data-sub-card">
+          <span class="sub-card-title">Presenting Demographics</span>
+          <div class="metrics-list">
+            <div class="metric-row-item">
+              <label for="select_age_group" class="metric-row-label">Age Group:</label>
+              <div class="form-input-container">
+                <select id="select_age_group" class="form-select-styled">
+                  <option value="Under 75 Years">Under 75 Years</option>
+                  <option value="75 Years and Older">75 Years and Older</option>
+                </select>
+              </div>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_chest_pain" class="metric-row-label">Chest Pain presentation:</label>
+              <div class="form-input-container">
+                <select id="select_chest_pain" class="form-select-styled" style="max-width: 140px;">
+                  <option value="Typical Angina">Typical Angina</option>
+                  <option value="Atypical Angina">Atypical Angina</option>
+                  <option value="Non-Anginal Chest Pain">Non-Anginal Chest Pain</option>
+                  <option value="Asymptomatic">Asymptomatic</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vitals Subcard (Editable) -->
+        <div class="data-sub-card">
+          <span class="sub-card-title">Admission Vitals (Simulated)</span>
+          <div class="metrics-list">
+            <div class="metric-row-item">
+              <label for="input_sys_bp" class="metric-row-label">Systolic BP:</label>
+              <div class="form-input-container">
+                <input type="text" id="input_sys_bp" class="text-input-styled" value="Not Recorded">
+                <span class="input-unit">mmHg</span>
+              </div>
+            </div>
+            <div class="metric-row-item">
+              <label for="input_sp_o2" class="metric-row-label">Oxygen Saturation:</label>
+              <div class="form-input-container">
+                <input type="number" id="input_sp_o2" class="text-input-styled" min="50" max="100" value="95">
+                <span class="input-unit">% SpO2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medical History Subcard (Editable Checkboxes) -->
+        <div class="data-sub-card">
+          <span class="sub-card-title">Comorbid History</span>
+          <div class="checkbox-list">
+            <label class="checkbox-item-label">
+              <input type="checkbox" id="check_diabetes">
+              <span class="custom-checkbox-box"></span>
+              Diabetes Mellitus (DM)
+            </label>
+            <label class="checkbox-item-label">
+              <input type="checkbox" id="check_stroke">
+              <span class="custom-checkbox-box"></span>
+              History of Stroke / TIA
+            </label>
+            <label class="checkbox-item-label">
+              <input type="checkbox" id="check_ckd">
+              <span class="custom-checkbox-box"></span>
+              Chronic Kidney Disease (CKD)
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- COLUMN 2: Diagnostic Findings & Hospital Prescriptions -->
+      <section class="clinical-column-card" aria-labelledby="col2-header">
+        <div class="column-header">
+          <span class="column-title" id="col2-header">💊 Diagnostics &amp; Prescriptions</span>
+        </div>
+
+        <!-- Diagnostics Subcard (Editable) -->
+        <div class="data-sub-card">
+          <span class="sub-card-title">Diagnostics</span>
+          <div class="metrics-list">
+            <div class="metric-row-item">
+              <label for="select_diagnosis" class="metric-row-label">Primary Diagnosis:</label>
+              <div class="form-input-container">
+                <select id="select_diagnosis" class="form-select-styled">
+                  <option value="STEMI">STEMI</option>
+                  <option value="NSTEMI">NSTEMI</option>
+                  <option value="Unstable Angina (UA)">Unstable Angina (UA)</option>
+                  <option value="Undetermined">Undetermined</option>
+                </select>
+              </div>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_troponin" class="metric-row-label">Troponin Biomarker:</label>
+              <div class="form-input-container">
+                <select id="select_troponin" class="form-select-styled">
+                  <option value="Negative / Normal">Negative / Normal</option>
+                  <option value="Positive / Elevated">Positive / Elevated</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prescriptions Subcard (Editable) -->
+        <div class="data-sub-card">
+          <span class="sub-card-title">Active Medications &amp; Interventions</span>
+          <div class="metrics-list">
+            <div class="metric-row-item">
+              <label for="select_reperfusion" class="metric-row-label">Reperfusion Strategy:</label>
+              <select id="select_reperfusion" class="form-select-styled" style="max-width: 140px;">
+                <option value="PCI">PCI (Coronary Angioplasty)</option>
+                <option value="Fibrinolysis">Fibrinolytic Therapy</option>
+                <option value="Conservative Medical Management">Conservative Medical</option>
+              </select>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_p2y12" class="metric-row-label">Active P2Y12 Inhibitor:</label>
+              <select id="select_p2y12" class="form-select-styled" style="max-width: 140px;">
+                <option value="None">None</option>
+                <option value="Clopidogrel">Clopidogrel (Plavix)</option>
+                <option value="Prasugrel">Prasugrel (Effient)</option>
+                <option value="Ticagrelor">Ticagrelor (Brilinta)</option>
+              </select>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_statin" class="metric-row-label">Statin Intensity:</label>
+              <select id="select_statin" class="form-select-styled" style="max-width: 140px;">
+                <option value="None">None</option>
+                <option value="Moderate-Intensity">Moderate-Intensity</option>
+                <option value="High-Intensity">High-Intensity</option>
+              </select>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_anticoagulation" class="metric-row-label">Oral Anticoagulation:</label>
+              <select id="select_anticoagulation" class="form-select-styled" style="max-width: 140px;">
+                <option value="No">No</option>
+                <option value="Yes">Yes (warfarin/DOAC)</option>
+              </select>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_ppi" class="metric-row-label">PPI Co-therapy:</label>
+              <select id="select_ppi" class="form-select-styled" style="max-width: 140px;">
+                <option value="No">No PPI</option>
+                <option value="Yes">Yes (Pantoprazole, etc.)</option>
+              </select>
+            </div>
+            <div class="metric-row-item">
+              <label for="select_bleeding_risk" class="metric-row-label">Bleeding Risk Category:</label>
+              <select id="select_bleeding_risk" class="form-select-styled" style="max-width: 140px;">
+                <option value="Standard/Low Risk Margins">Standard/Low Risk</option>
+                <option value="High Bleeding Risk">High Bleeding Risk</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COLUMN 3: Clinical Decision Support Audit -->
+      <section id="cdsAuditCardContainer" class="clinical-column-card audit-container-card" aria-labelledby="col3-header">
+        <div class="column-header">
+          <span class="column-title" id="col3-header">🔬 CDS Clinical Audit</span>
+        </div>
+
+        <!-- Audit Summary Details -->
+        <div class="audit-metric-group">
+          <div class="audit-metric-item">
+            <span class="audit-metric-label">Risk Level:</span>
+            <span id="val_risk_tier" class="risk-badge risk-high">High Risk</span>
+          </div>
+          <div class="audit-metric-item">
+            <span class="audit-metric-label">Regimen Status:</span>
+            <span id="val_regimen_status" class="status-text-val">Suboptimized Therapy</span>
+          </div>
+        </div>
+
+        <!-- Risk Drivers -->
+        <div class="list-container">
+          <span class="sub-card-title">Identified Risk Drivers</span>
+          <ul id="list_risk_drivers">
+            <!-- Populated dynamically -->
+          </ul>
+        </div>
+
+        <!-- Guideline Deviations -->
+        <div class="list-container">
+          <span class="sub-card-title">Clinical Deviations</span>
+          <ul id="list_deviations">
+            <!-- Populated dynamically -->
+          </ul>
+        </div>
+
+        <!-- Apply updates block -->
+        <div class="action-box">
+          <button id="applyInterventionBtn" class="btn btn-primary" style="width: 100%; height: 42px;">
+            ✅ Apply Clinical Intervention
+          </button>
+          <button id="predictCDSBtn" class="btn" style="width: 100%; height: 42px; display: none;">
+            🔬 Run CDS Analysis
+          </button>
+          <button id="saveNewPatientBtn" class="btn" style="width: 100%; height: 42px; display: none;">
+            💾 Add Patient to Registry
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- 4. ACTIONABLE CLINICAL MARGINS -->
+    <section class="bottom-margins-row" aria-labelledby="bottom-row-header">
+      <div class="bottom-row-header">
+        <span class="bottom-header-icon">🛡️</span>
+        <span id="bottom-row-header">Pharmacist Clinical Interventions &amp; Safety Margins</span>
+      </div>
+
+      <!-- IMMEDIATE MEDICATION STOP DIRECTIVE (Alert Card) -->
+      <div id="stopDirectiveContainer" class="stop-directive-card stop-inactive" role="alert">
+        <div class="danger-icon-wrapper">🛑</div>
+        <div id="val_stop_directive_text">
+          <strong>Directive:</strong> Patient treatment protocol conforms with safety standards. No immediate suspensions required.
+        </div>
+      </div>
+
+      <!-- REQUIRED PHARMACIST INTERVENTIONS (Action checklist container) -->
+      <div class="interventions-action-container">
+        <span class="action-box-subtitle">Required Clinical Actions Checklist</span>
+        <div id="val_pharmacist_interventions_list" class="interventions-checklist">
+          <!-- Interventions lists rendered here -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Script Libraries -->
+  <script src="./js/rules.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
