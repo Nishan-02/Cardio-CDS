@@ -9,58 +9,58 @@
 /* ===== DESIGN TOKENS ===== */
 :root {
   /* --- Core Background System --- */
-  --bg-base:       #030c1a;          /* Near-black navy */
-  --bg-primary:    #061122;          /* Deep hospital navy */
-  --bg-secondary:  #08182e;          /* Slightly lighter navy */
-  --bg-card:       rgba(8, 24, 52, 0.75);   /* Glassmorphic card */
-  --bg-card-solid: #0d1e3a;
-  --bg-inset:      rgba(3, 12, 26, 0.6);
-  --bg-hover:      rgba(20, 45, 80, 0.6);
+  --bg-base:       #f4f8fa;          /* Soft clinical ice-blue background */
+  --bg-primary:    #ffffff;          /* Clean white for main containers */
+  --bg-secondary:  #e0f2fe;          /* Very light sky-blue background tint */
+  --bg-card:       #ffffff;          /* Crisp white cards */
+  --bg-card-solid: #ffffff;
+  --bg-inset:      #f8fafc;          /* Slate-50 for inset areas like inputs */
+  --bg-hover:      #f0f7ff;          /* Light blue hover states */
 
   /* --- Border System --- */
-  --border-subtle:  rgba(56, 115, 185, 0.18);
-  --border-soft:    rgba(56, 115, 185, 0.3);
-  --border-focus:   rgba(56, 185, 160, 0.6);
-  --border-card:    rgba(56, 115, 185, 0.22);
+  --border-subtle:  #e2e8f0;          /* Subtle grey border */
+  --border-soft:    #cbd5e1;          /* Medium grey border */
+  --border-focus:   #0284c7;          /* Focused sky-blue */
+  --border-card:    #e2e8f0;
 
   /* --- Clinical Color Palette --- */
-  /* Teal — Primary medical accent */
-  --teal:           #0ea5c9;
-  --teal-light:     #38bdf8;
-  --teal-soft:      rgba(14, 165, 201, 0.15);
-  --teal-glow:      rgba(14, 165, 201, 0.3);
-  --teal-border:    rgba(14, 165, 201, 0.35);
+  /* Teal/Blue — Primary medical accent */
+  --teal:           #0284c7;          /* Hospital clinical blue */
+  --teal-light:     #0369a1;          /* Darker blue for text readability */
+  --teal-soft:      #f0f9ff;          /* Very soft tint */
+  --teal-glow:      rgba(2, 132, 199, 0.08);
+  --teal-border:    #bae6fd;
 
   /* Emerald — Compliance / Optimized */
   --clinical-green:        #10b981;
-  --clinical-green-light:  #34d399;
-  --clinical-green-bg:     rgba(16, 185, 129, 0.1);
-  --clinical-green-border: rgba(16, 185, 129, 0.35);
+  --clinical-green-light:  #047857;
+  --clinical-green-bg:     #ecfdf5;
+  --clinical-green-border: #a7f3d0;
 
   /* Amber — Suboptimized / Warning */
   --clinical-amber:        #f59e0b;
-  --clinical-amber-light:  #fbbf24;
-  --clinical-amber-bg:     rgba(245, 158, 11, 0.1);
-  --clinical-amber-border: rgba(245, 158, 11, 0.35);
+  --clinical-amber-light:  #b45309;
+  --clinical-amber-bg:     #fffbeb;
+  --clinical-amber-border: #fde68a;
 
   /* Crimson — Critical Violation / Alert */
   --clinical-red:        #ef4444;
-  --clinical-red-light:  #f87171;
-  --clinical-red-bg:     rgba(239, 68, 68, 0.1);
-  --clinical-red-border: rgba(239, 68, 68, 0.35);
+  --clinical-red-light:  #b91c1c;
+  --clinical-red-bg:     #fef2f2;
+  --clinical-red-border: #fca5a5;
 
   /* Cobalt — Predictor / Analysis */
   --cobalt:        #3b82f6;
-  --cobalt-light:  #60a5fa;
-  --cobalt-bg:     rgba(59, 130, 246, 0.12);
-  --cobalt-border: rgba(59, 130, 246, 0.35);
+  --cobalt-light:  #1d4ed8;
+  --cobalt-bg:     #eff6ff;
+  --cobalt-border: #bfdbfe;
 
   /* --- Text System --- */
-  --text-primary:  #e8f1ff;
-  --text-secondary:#94b4d4;
-  --text-muted:    #5a7fa8;
-  --text-heading:  #ffffff;
-  --text-dark:     #030c1a;
+  --text-primary:  #1e293b;          /* Charcoal dark slate for text */
+  --text-secondary:#475569;          /* Medium slate */
+  --text-muted:    #64748b;          /* Soft grey/slate for labels */
+  --text-heading:  #0f172a;          /* Darkest slate for bold headings */
+  --text-dark:     #0f172a;
 
   /* --- Fonts --- */
   --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -68,10 +68,10 @@
   --font-mono:    'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
 
   /* --- Shadows --- */
-  --shadow-sm:   0 2px 8px rgba(0, 0, 0, 0.3);
-  --shadow-md:   0 4px 20px rgba(0, 0, 0, 0.4);
-  --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.5);
-  --shadow-teal: 0 4px 20px rgba(14, 165, 201, 0.15);
+  --shadow-sm:   0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md:   0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg:   0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-teal: 0 4px 14px rgba(2, 132, 199, 0.08);
 
   /* --- Radii --- */
   --radius-sm:   8px;
@@ -95,15 +95,15 @@ html {
 body {
   background-color: var(--bg-base);
   background-image:
-    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(14, 165, 201, 0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(16, 185, 129, 0.04) 0%, transparent 50%),
-    radial-gradient(ellipse 100% 80% at 50% 50%, rgba(8, 24, 52, 0.9) 0%, var(--bg-base) 100%);
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(2, 132, 199, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(16, 185, 129, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 80% at 50% 50%, rgba(240, 246, 252, 0.4) 0%, var(--bg-base) 100%);
   color: var(--text-primary);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  padding: 20px;
+  padding: 24px;
   overflow-x: hidden;
 }
 
@@ -728,20 +728,21 @@ body {
 
 /* Sub-card (data group inside a column) */
 .data-sub-card {
-  background: rgba(3, 12, 26, 0.4);
+  background: var(--bg-inset);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 14px 16px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  transition: border-color 0.2s;
+  gap: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 .data-sub-card:hover {
-  border-color: rgba(56, 115, 185, 0.25);
+  border-color: var(--teal-border);
+  box-shadow: var(--shadow-sm);
 }
 .sub-card-title {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.2px;
@@ -754,30 +755,29 @@ body {
 .sub-card-title::before {
   content: '';
   display: inline-block;
-  width: 3px;
+  width: 4px;
   height: 12px;
   background: var(--teal);
   border-radius: var(--radius-pill);
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* Metric rows inside column cards */
 .metrics-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 .metric-row-item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
 }
 .metric-row-label {
   font-size: 12px;
   color: var(--text-secondary);
-  font-weight: 500;
-  flex-shrink: 0;
+  font-weight: 600;
 }
 .metric-row-value {
   font-weight: 700;
@@ -785,12 +785,13 @@ body {
   color: var(--text-primary);
 }
 .badge-static {
-  background: rgba(56, 115, 185, 0.15);
-  border: 1px solid var(--border-subtle);
-  padding: 3px 8px;
+  background: rgba(2, 132, 199, 0.08);
+  border: 1px solid var(--teal-border);
+  padding: 4px 10px;
   border-radius: var(--radius-sm);
   font-size: 12px;
   font-weight: 600;
+  color: var(--teal-light);
 }
 
 /* ===== FORM INPUTS ===== */
@@ -798,41 +799,41 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  max-width: 150px;
+  width: 100%;
 }
 .text-input-styled {
-  background: var(--bg-inset);
-  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
   color: var(--text-primary);
   border-radius: var(--radius-sm);
-  padding: 6px 10px;
+  padding: 8px 12px;
   font-size: 13px;
   font-weight: 600;
   font-family: var(--font-mono);
   width: 100%;
-  text-align: right;
+  text-align: left;
   transition: border 0.2s, box-shadow 0.2s;
 }
 .text-input-styled:focus {
   outline: none;
-  border-color: var(--teal-border);
-  box-shadow: 0 0 0 2px rgba(14, 165, 201, 0.12);
+  border-color: var(--teal);
+  box-shadow: 0 0 0 2px var(--teal-glow);
 }
 .input-unit {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-muted);
-  width: 38px;
+  width: 50px;
   flex-shrink: 0;
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
 }
 
 /* Select Inputs */
 .form-select-styled {
-  background: var(--bg-inset);
-  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
   color: var(--text-primary);
   border-radius: var(--radius-sm);
-  padding: 6px 10px;
+  padding: 8px 12px;
   font-size: 13px;
   font-weight: 500;
   font-family: var(--font-body);
@@ -840,19 +841,19 @@ body {
   cursor: pointer;
   transition: all 0.2s;
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235a7fa8' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right 8px center;
+  background-position: right 10px center;
   background-size: 14px;
-  padding-right: 28px;
+  padding-right: 32px;
 }
 .form-select-styled:focus {
   outline: none;
-  border-color: var(--teal-border);
-  box-shadow: 0 0 0 2px rgba(14, 165, 201, 0.12);
+  border-color: var(--teal);
+  box-shadow: 0 0 0 2px var(--teal-glow);
 }
 .form-select-styled option {
-  background: var(--bg-card-solid);
+  background: #ffffff;
   color: var(--text-primary);
 }
 
